@@ -12,6 +12,7 @@
 		DD0F949920993593009EEB02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0F949720993593009EEB02 /* Main.storyboard */; };
 		DD0F949B20993593009EEB02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD0F949A20993593009EEB02 /* Assets.xcassets */; };
 		DD0F949E20993593009EEB02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD0F949C20993593009EEB02 /* LaunchScreen.storyboard */; };
+		DD0F94A620993629009EEB02 /* changeGemColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD0F94A520993629009EEB02 /* changeGemColorViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		DD0F949A20993593009EEB02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DD0F949D20993593009EEB02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD0F949F20993593009EEB02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD0F94A520993629009EEB02 /* changeGemColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = changeGemColorViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				DD0F949320993593009EEB02 /* AppDelegate.swift */,
 				DD0F949520993593009EEB02 /* ViewController.swift */,
 				DD0F949720993593009EEB02 /* Main.storyboard */,
+				DD0F94A520993629009EEB02 /* changeGemColorViewController.swift */,
 				DD0F949A20993593009EEB02 /* Assets.xcassets */,
 				DD0F949C20993593009EEB02 /* LaunchScreen.storyboard */,
 				DD0F949F20993593009EEB02 /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DD0F949620993593009EEB02 /* ViewController.swift in Sources */,
+				DD0F94A620993629009EEB02 /* changeGemColorViewController.swift in Sources */,
 				DD0F949420993593009EEB02 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
