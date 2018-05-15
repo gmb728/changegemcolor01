@@ -7,45 +7,35 @@
 //
 
 import UIKit
+import GameKit
 
 class changeGemColorViewController: UIViewController {
 var count = Int(arc4random_uniform(6)+0)
   
+    @IBOutlet weak var gloveImageView: UIImageView!
     
-    @IBOutlet weak var buttonTitle: UIButton!
     @IBOutlet weak var orangeImageView: UIImageView!
     @IBOutlet weak var redImageView: UIImageView!
     @IBOutlet weak var blueImageView: UIImageView!
     @IBOutlet weak var purpleImageView: UIImageView!
     @IBOutlet weak var greenImageView: UIImageView!
     @IBOutlet weak var crystalImageView: UIImageView!
+    let gems = ["orange", "red", "blue", "purple", "green", "crystal"]
+         @IBOutlet weak var buttonTitle: UIButton!
     
-     
     
-    @IBAction func buttonTitle(_ sender: Any) {
- 
-      count = count + 1
-       changeGem()
-    }
-    func changeGem(){
-        let number = count % 6
+        @IBAction func buttonTitle(_ sender: UIButton) {
         
-        if number == 0 {
-            redImageView.image = UIImage(named: "red")
-        } else if number == 1 {
-            orangeImageView.image = UIImage(named: "orange")
-        } else if number == 2 {
-            greenImageView.image = UIImage(named: "green")
-        } else if number == 3 {
-            blueImageView.image = UIImage(named: "blue")
-        } else if number == 4 {
-            purpleImageView.image = UIImage(named: "purple")
-        } else if number == 5 {
-            crystalImageView.image = UIImage(named: "crystal")
+        let randomDistribution = GKRandomDistribution(lowestValue: 0, highestValue: 5)
+        let gemArray: [UIImageView] = [orangeImageView, redImageView, greenImageView, blueImageView, purpleImageView, crystalImageView]
+        for i in 0...5{
+            let number = randomDistribution.nextInt()
+            gemArray[i].image = UIImage("orange", "red", "blue", "green" ,"purple", "crystal")
+            
         }
+        
     }
-    
-    
+  
     override func viewDidLoad() {
         super.viewDidLoad()
  
@@ -69,3 +59,4 @@ var count = Int(arc4random_uniform(6)+0)
     */
 
 }
+

@@ -22,27 +22,27 @@
                                 <rect key="frame" x="-37" y="0.0" width="412" height="736"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <connections>
-                                    <action selector="buttonTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="APK-h9-NVi"/>
+                                    <action selector="buttonTitle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ayU-st-fiE"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="gloves" translatesAutoresizingMaskIntoConstraints="NO" id="OHh-kQ-pup" userLabel="glove View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nwb-8k-vqj" userLabel="GemO View">
-                                <rect key="frame" x="51" y="199" width="35" height="51"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rLp-76-EFh" userLabel="GemR View">
                                 <rect key="frame" x="107" y="140" width="57" height="71"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nwb-8k-vqj" userLabel="GemO View">
+                                <rect key="frame" x="51" y="199" width="35" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t3n-AC-TFg" userLabel="GemB View">
-                                <rect key="frame" x="145" y="127" width="120" height="110"/>
+                                <rect key="frame" x="145" y="127" width="100" height="90"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IfI-SU-seW" userLabel="GemG View">
-                                <rect key="frame" x="275" y="270" width="78" height="80"/>
+                                <rect key="frame" x="275" y="270" width="65" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GfS-BO-6Lw" userLabel="GemC View">
@@ -61,6 +61,7 @@
                         <outlet property="blueImageView" destination="t3n-AC-TFg" id="6Hl-Pk-aaJ"/>
                         <outlet property="buttonTitle" destination="9vN-ur-W5i" id="5vm-Dh-5uf"/>
                         <outlet property="crystalImageView" destination="GfS-BO-6Lw" id="4Cc-om-xNs"/>
+                        <outlet property="gloveImageView" destination="OHh-kQ-pup" id="dKF-gV-X5m"/>
                         <outlet property="greenImageView" destination="IfI-SU-seW" id="XoM-j9-d6N"/>
                         <outlet property="orangeImageView" destination="Nwb-8k-vqj" id="vt0-7o-8GV"/>
                         <outlet property="purpleImageView" destination="uOS-OP-oJp" id="ndJ-k5-HT7"/>
