@@ -30,27 +30,38 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rLp-76-EFh" userLabel="GemR View">
-                                <rect key="frame" x="107" y="140" width="57" height="71"/>
+                                <rect key="frame" x="101" y="143" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Nwb-8k-vqj" userLabel="GemO View">
-                                <rect key="frame" x="51" y="199" width="35" height="51"/>
+                                <rect key="frame" x="38" y="191" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t3n-AC-TFg" userLabel="GemB View">
-                                <rect key="frame" x="145" y="127" width="100" height="90"/>
+                                <rect key="frame" x="166" y="134" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IfI-SU-seW" userLabel="GemG View">
-                                <rect key="frame" x="275" y="270" width="65" height="70"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GfS-BO-6Lw" userLabel="GemC View">
-                                <rect key="frame" x="155" y="270" width="83" height="82"/>
+                                <rect key="frame" x="279" y="276" width="70" height="70"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uOS-OP-oJp" userLabel="GemP View">
-                                <rect key="frame" x="248" y="153" width="47" height="60"/>
+                                <rect key="frame" x="238" y="153" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GfS-BO-6Lw" userLabel="GemC View">
+                                <rect key="frame" x="157" y="270" width="79" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="華麗指數" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weq-Yt-r2g" userLabel="numberoutlet">
+                                <rect key="frame" x="109" y="460" width="156" height="92"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bracelet" translatesAutoresizingMaskIntoConstraints="NO" id="jdy-UJ-8yD">
+                                <rect key="frame" x="109" y="472" width="165" height="92"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -61,8 +72,8 @@
                         <outlet property="blueImageView" destination="t3n-AC-TFg" id="6Hl-Pk-aaJ"/>
                         <outlet property="buttonTitle" destination="9vN-ur-W5i" id="5vm-Dh-5uf"/>
                         <outlet property="crystalImageView" destination="GfS-BO-6Lw" id="4Cc-om-xNs"/>
-                        <outlet property="gloveImageView" destination="OHh-kQ-pup" id="dKF-gV-X5m"/>
                         <outlet property="greenImageView" destination="IfI-SU-seW" id="XoM-j9-d6N"/>
+                        <outlet property="numberOutlet" destination="weq-Yt-r2g" id="1CX-AB-QXB"/>
                         <outlet property="orangeImageView" destination="Nwb-8k-vqj" id="vt0-7o-8GV"/>
                         <outlet property="purpleImageView" destination="uOS-OP-oJp" id="ndJ-k5-HT7"/>
                         <outlet property="redImageView" destination="rLp-76-EFh" id="qK8-O9-ajF"/>
@@ -70,10 +81,11 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-998" y="-23"/>
+            <point key="canvasLocation" x="-4074.4000000000001" y="-177.66116941529236"/>
         </scene>
     </scenes>
     <resources>
+        <image name="bracelet" width="350" height="350"/>
         <image name="gloves" width="300" height="544"/>
     </resources>
 </document>
